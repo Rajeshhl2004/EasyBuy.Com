@@ -5,6 +5,14 @@
     font-family: Arial, sans-serif;
 }
 
+@media screen and (max-width: 941px) {
+    
+}
+
+@media screen and (max-width : 685px) {
+    
+}
+
 .navbar {
     background: rgb(233, 80, 226);
     padding: 15px 30px;
