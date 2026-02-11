@@ -71,12 +71,33 @@
 }
 
 .banner {
-    background: linear-gradient(to right, #f7f75a, #f25a08);
-    color: white;
-    text-align: center;
-    padding: 50px 20px;
-   
-}
+            background: linear-gradient(to right, #f7f75a, #f25a08);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .custom-arrow {
+            font-size: 30px;
+            font-weight: 300;
+            color: #2b1a0f;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 2%;
+        }
+
+        .carousel-control-prev:hover .custom-arrow {
+            transform: translateX(-8px) scale(1.15);
+            color: #000;
+        }
+
+        .carousel-control-next:hover .custom-arrow {
+            transform: translateX(8px) scale(1.15);
+            color: #000;
+        }
 
 .products {
     display: grid;
@@ -395,3 +416,45 @@ button:hover {
         font-size: 16px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+/* FIX BOOTSTRAP OVERRIDES */
+
+/* Product price */
+.product-card p,
+.product-card3 p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+/* Buttons */
+.product-card button,
+.product-card3 button {
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* Headings */
+.product-card h3,
+.product-card3 h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Banner text */
+.banner h1 {
+    font-size: 36px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
