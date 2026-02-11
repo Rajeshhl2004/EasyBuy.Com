@@ -18,7 +18,7 @@
 }
 
 .navbar {
-    background: linear-gradient(135deg, #43cea2,#3f403e);
+    background: linear-gradient(135deg, #43bece,#3f403e);
     padding: 15px 30px;
     display: flex;
     align-items: center;
@@ -246,16 +246,15 @@ button {
     border: none;
     border-radius: 25px;
     font-size: 16px;
-    cursor: pointer;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 button a{
     
     background: linear-gradient(135deg, #7b2cbf, #9d4edd);
-     color: white;
-      padding: 0;
-
+    color: white;
+    padding: 0;
 }
 
 button:hover {
@@ -328,6 +327,7 @@ button {
     cursor: pointer;
     transition: 0.3s;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 button:hover {
